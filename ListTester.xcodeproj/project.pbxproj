@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		4413E0761AC4941500D5B4AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4413E0751AC4941500D5B4AC /* AppDelegate.swift */; };
 		4413E0791AC4941500D5B4AC /* ListTester.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4413E0771AC4941500D5B4AC /* ListTester.xcdatamodeld */; };
-		4413E07B1AC4941500D5B4AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4413E07A1AC4941500D5B4AC /* ViewController.swift */; };
-		4413E07E1AC4941500D5B4AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4413E07C1AC4941500D5B4AC /* Main.storyboard */; };
 		4413E0801AC4941500D5B4AC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4413E07F1AC4941500D5B4AC /* Images.xcassets */; };
 		4413E0831AC4941500D5B4AC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4413E0811AC4941500D5B4AC /* LaunchScreen.xib */; };
 		4413E08F1AC4941500D5B4AC /* ListTesterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4413E08E1AC4941500D5B4AC /* ListTesterTests.swift */; };
+		4413E0991AC496E500D5B4AC /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4413E0981AC496E500D5B4AC /* ListTableViewController.swift */; };
+		4413E09B1AC4971C00D5B4AC /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4413E09A1AC4971C00D5B4AC /* ItemViewController.swift */; };
+		4413E09D1AC4974800D5B4AC /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4413E09C1AC4974800D5B4AC /* Model.swift */; };
+		4413E0AF1AC5D6F600D5B4AC /* Coolest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4413E0AE1AC5D6F600D5B4AC /* Coolest.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +33,15 @@
 		4413E0741AC4941500D5B4AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4413E0751AC4941500D5B4AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4413E0781AC4941500D5B4AC /* ListTester.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ListTester.xcdatamodel; sourceTree = "<group>"; };
-		4413E07A1AC4941500D5B4AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4413E07D1AC4941500D5B4AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4413E07F1AC4941500D5B4AC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4413E0821AC4941500D5B4AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4413E0881AC4941500D5B4AC /* ListTesterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ListTesterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4413E08D1AC4941500D5B4AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4413E08E1AC4941500D5B4AC /* ListTesterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTesterTests.swift; sourceTree = "<group>"; };
+		4413E0981AC496E500D5B4AC /* ListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		4413E09A1AC4971C00D5B4AC /* ItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
+		4413E09C1AC4974800D5B4AC /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		4413E0AE1AC5D6F600D5B4AC /* Coolest.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Coolest.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,11 +83,10 @@
 		4413E0721AC4941500D5B4AC /* ListTester */ = {
 			isa = PBXGroup;
 			children = (
-				4413E0751AC4941500D5B4AC /* AppDelegate.swift */,
-				4413E07A1AC4941500D5B4AC /* ViewController.swift */,
-				4413E07C1AC4941500D5B4AC /* Main.storyboard */,
-				4413E07F1AC4941500D5B4AC /* Images.xcassets */,
-				4413E0811AC4941500D5B4AC /* LaunchScreen.xib */,
+				4413E0981AC496E500D5B4AC /* ListTableViewController.swift */,
+				4413E09A1AC4971C00D5B4AC /* ItemViewController.swift */,
+				4413E09C1AC4974800D5B4AC /* Model.swift */,
+				4413E0AE1AC5D6F600D5B4AC /* Coolest.storyboard */,
 				4413E0771AC4941500D5B4AC /* ListTester.xcdatamodeld */,
 				4413E0731AC4941500D5B4AC /* Supporting Files */,
 			);
@@ -93,6 +96,9 @@
 		4413E0731AC4941500D5B4AC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4413E0751AC4941500D5B4AC /* AppDelegate.swift */,
+				4413E0811AC4941500D5B4AC /* LaunchScreen.xib */,
+				4413E07F1AC4941500D5B4AC /* Images.xcassets */,
 				4413E0741AC4941500D5B4AC /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -195,8 +201,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4413E07E1AC4941500D5B4AC /* Main.storyboard in Resources */,
 				4413E0831AC4941500D5B4AC /* LaunchScreen.xib in Resources */,
+				4413E0AF1AC5D6F600D5B4AC /* Coolest.storyboard in Resources */,
 				4413E0801AC4941500D5B4AC /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,9 +221,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4413E07B1AC4941500D5B4AC /* ViewController.swift in Sources */,
 				4413E0791AC4941500D5B4AC /* ListTester.xcdatamodeld in Sources */,
+				4413E09B1AC4971C00D5B4AC /* ItemViewController.swift in Sources */,
+				4413E09D1AC4974800D5B4AC /* Model.swift in Sources */,
 				4413E0761AC4941500D5B4AC /* AppDelegate.swift in Sources */,
+				4413E0991AC496E500D5B4AC /* ListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,14 +248,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4413E07C1AC4941500D5B4AC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4413E07D1AC4941500D5B4AC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4413E0811AC4941500D5B4AC /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -409,6 +409,7 @@
 				4413E0941AC4941500D5B4AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4413E0951AC4941500D5B4AC /* Build configuration list for PBXNativeTarget "ListTesterTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +418,7 @@
 				4413E0971AC4941500D5B4AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
